@@ -1,20 +1,18 @@
 :root {
   font-family: "Outfit", sans-serif;
 }
-
 body {
-  padding: 0;
   margin: 0;
+  padding: 0;
   display: flex;
   background-color: hsl(212, 45%, 89%);
   justify-content: center;
   align-items: center;
   min-height: 100vh;
 }
-
 .container {
   position: relative;
-  margin-top: 0px;
+  margin-top: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -50,7 +48,6 @@ body {
 
 .paragraph {
   font-family: "Outfit", sans-serif;
-  text-align: center;
   padding: 0;
   max-width: 200px;
   margin: 0.4rem auto 1.4rem;
